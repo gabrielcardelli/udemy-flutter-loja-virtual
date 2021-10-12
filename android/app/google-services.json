@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "537421816234",
+    "project_id": "loja-virtual-61537",
+    "storage_bucket": "loja-virtual-61537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537421816234:android:92cac20e7cf01e31c6cbd3",
+        "android_client_info": {
+          "package_name": "br.com.ciolfi.lojavirtual.lojavirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537421816234-oeot5ous9r44olp0r96tp9jm7gt235fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAycllBEAN3QeCd_yG5HJRwg4Ur92JcabI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537421816234-oeot5ous9r44olp0r96tp9jm7gt235fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537421816234:android:750f57fcc2aa6f4ec6cbd3",
+        "android_client_info": {
+          "package_name": "com.example.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537421816234-oeot5ous9r44olp0r96tp9jm7gt235fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAycllBEAN3QeCd_yG5HJRwg4Ur92JcabI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537421816234-oeot5ous9r44olp0r96tp9jm7gt235fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
