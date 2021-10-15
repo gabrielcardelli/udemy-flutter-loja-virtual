@@ -28,7 +28,7 @@ class ProductManager extends ChangeNotifier {
      if(search.isEmpty){
        filteredProducts.addAll(allProducts);
      }else{
-       filteredProducts.addAll(allProducts.where((p) => p.name.toLowerCase().contains(search.toLowerCase())).toList());
+       filteredProducts.addAll(allProducts.where((p) => p.name!.toLowerCase().contains(search.toLowerCase())).toList());
      }
 
      return filteredProducts;

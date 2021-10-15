@@ -30,7 +30,7 @@ class ProductListTile extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Text(product.name,
+                  Text(product.name.toString(),
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),),
                   Padding(padding: EdgeInsets.only(top: 4),
                     child: Text('A partir de', style: TextStyle(
