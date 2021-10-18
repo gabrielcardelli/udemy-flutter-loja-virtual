@@ -22,6 +22,7 @@ class ProductManager extends ChangeNotifier {
     notifyListeners();
   }
 
+
   List<Product> get filteredProducts {
      final List<Product> filteredProducts = [];
 
