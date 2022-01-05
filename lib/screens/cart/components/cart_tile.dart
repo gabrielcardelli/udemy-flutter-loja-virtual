@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lojavirtual/common/custom_icom_button.dart';
 import 'package:lojavirtual/models/cart_product.dart';
 
 class CartTile extends StatelessWidget {
@@ -44,7 +45,23 @@ class CartTile extends StatelessWidget {
                   )
                 ],
               ),
-            ))
+            )),
+            Column(
+              children: [
+                CustomIconButton(
+                    iconData: Icons.add,
+                    color: Theme.of(context).primaryColor,
+                    onTap: cartProduct.increment),
+                Text(
+                  '${cartProduct.quantity}',
+                  style: TextStyle(fontSize: 20),
+                ),
+                CustomIconButton(
+                    iconData: Icons.remove,
+                    color: Theme.of(context).primaryColor,
+                    onTap: cartProduct.decrement),
+              ],
+            )
           ],
         ),
       ),
